@@ -1,4 +1,4 @@
 <?php
 
-include('softaculous.php');
-include('softaculousPost.php');
+include('src/softaculous.php');
+include('src/softaculousPost.php');
