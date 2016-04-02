@@ -1,0 +1,7 @@
+{
+  "name": "codifyllc/softaculous-php-api",
+  "description": "A basic package to use the softaculous API",
+  "require": {
+    "php": ">=5.3.0"
+  }
+}
