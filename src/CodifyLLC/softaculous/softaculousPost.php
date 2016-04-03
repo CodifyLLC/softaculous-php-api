@@ -224,5 +224,9 @@ class softaculousPost {
         $this->noemail = $noemail;
     }
 
+    public function setKeyValue($key, $val)
+    {
+        $this->$key = $val;
+    }
     
 }

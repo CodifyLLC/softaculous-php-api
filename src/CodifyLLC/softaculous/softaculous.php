@@ -204,10 +204,6 @@ class softaculous {
             $url .= '&insid=' . $insid;
         }
 
-        print $url;
-        print "\n\n";
-
-
         // Set the curl parameters
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -249,9 +245,6 @@ class softaculous {
             print $verboseLog;
         }
 
-
-
-        print $resp;
         // Unserialize data
         $res = unserialize($resp);
 

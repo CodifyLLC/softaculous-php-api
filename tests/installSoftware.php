@@ -19,11 +19,11 @@ $softaculousPost->setDbusername('dbusername');
 $softaculousPost->setDbuserpass('test');
 $softaculousPost->setSoftdb(1);
 $softaculousPost->setSoftsubmit(1);
-$softaculousPost->setSoftdomain('directpayexpress.com');
+$softaculousPost->setSoftdomain('testingdomain.com');
 $softaculousPost->setSoftdirectory('wp');
 $softaculousPost->setSoftdb('testing');
 $softaculousPost->setLanguage('en');
-$softaculousPost->setSiteName('DirectPay Express');
+$softaculousPost->setSiteName('Testing site name');
 $softaculousPost->setSiteDesc('Just testing Wordpress Install');
 $softaculousPost->setNoemail(1);
 
